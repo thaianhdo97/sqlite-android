@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SQLite">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.UpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ListUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
